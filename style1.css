@@ -1,0 +1,379 @@
+
+/*cadre comple du site ne rien mettre*/	
+#cadre {
+	
+	
+    position:absolute;
+    background-color:;
+    width:100%;
+    height:120%;
+	top:0px;
+	left:0px;
+	
+}
+/*fin du cadre*/
+
+/*il y a le logo et le nom de guilde rien d'autre*/
+#tete{
+	
+    position:absolute;
+    background-color:;
+    width:100%;
+    height:10%;
+	top:0px;
+	left:0px;
+	text-align:center;
+	text-bottom:center;
+}
+/*fin de tete*/
+
+/*contenue du site complé*/
+#corps{
+	
+	position:absolute;
+    background-color:;
+    width:100%;
+    height:80%;
+    top:15%;
+    left:0px;
+	
+}
+/*fin du corp*/
+
+/*dans le nav il y a un bouton pour aller sur la galerie photo video charte et tuto*/
+.nav{
+	position:absolute;
+	background-color:red;
+	width:100%;
+	height:5%;
+	top:%;
+	left:0px;
+}
+
+.photo{ 
+    position:absolute;
+	background-color:silver;
+	border:solid 2px red;
+	width:25%;
+	height:100%;
+	top:%;
+	left:0px;
+	text-align:center;
+}
+
+*.photo{box-sizing:border-box;}
+
+
+.vidéo{
+	position:absolute;
+	background-color:silver;
+	border:solid 2px red;
+	width:25%;
+	height:100%;
+	top:%;
+	left:25%;
+	text-align:center;
+}
+
+*.vidéo{box-sizing:border-box;}
+
+.charte{
+	position:absolute;
+	background-color:silver;
+	border:solid 2px red;
+	width:25%;
+	height:100%;
+	top:0%;
+	right:25%;
+	text-align:center;
+}
+
+*.charte{box-sizing:border-box;}
+
+.tuto{
+	position:absolute;
+	background-color:silver;
+	border:solid 2px red;
+	width:25%;
+	height:100%;
+	top:0%;
+	right:0%;
+	text-align:center;
+} 
+*.tuto{box-sizing:border-box;}
+
+
+/*fin du nav*/
+
+/*explicatif de guilde */
+.laguilde{
+	position:absolute;
+	background-color:green;
+	width:100%;
+	height:40%;
+	top:5%;
+	left:0px;
+	text-align:center;
+}
+/*fin du cadre la guilde*/
+/*l'avancer de la guilde cadre general*/
+.cadreda{
+	position:absolute ;
+	background-color:orange;
+	width:100%;
+	height:30%;
+	top:45%;
+	left:0%;
+	
+}
+/*cadre du titre*/
+.avancer{
+	position:absolute ;
+	background-color:;
+	border:solid 2px red;
+	width:100%;
+	height:20%;
+	top:0%;
+	left:0%;
+	text-align:center;
+}
+*.avancer{box-sizing:border-box;}
+
+/*cadre des raid*/
+
+.cde{
+	position:absolute ;
+	background-color:;
+	border:solid 2px red;
+	width:20%;
+	height:40%;
+	top:20%;
+	left:0%;
+	text-align:center;
+}
+
+*.cde{box-sizing:border-box;}
+
+.karaga{
+	position:absolute ;
+	background-color:;
+	border:solid 2px red;
+	width:20%;
+	height:40%;
+	top:20%;
+	left:20%;
+	text-align:center;
+}
+
+*.karaga{box-sizing:border-box;}
+
+.conflit{
+	position:absolute ;
+	background-color:;
+	border:solid 2px red;
+	width:20%;
+	height:40%;
+	top:20%;
+	left:40%;
+	text-align:center;
+}
+
+*.conflit{box-sizing:border-box;}
+
+.assation{
+	position:absolute ;
+	background-color:;
+	border:solid 2px red;
+	width:20%;
+	height:40%;
+	top:20%;
+	right:20%;
+	text-align:center;
+}
+
+*.assation{box-sizing:border-box;}
+
+.darva{
+	position:absolute ;
+	background-color:;
+	border:solid 2px red;
+	width:20%;
+	height:40%;
+	top:20%;
+	right:0%;
+	text-align:center;
+}
+
+*.darva{box-sizing:border-box;}
+
+.fe{
+	position:absolute ;
+	background-color:;
+	border:solid 2px red;
+	width:20%;
+	height:40%;
+	top:60%;
+	left:0%;
+	text-align:center;
+}
+
+*.fe{box-sizing:border-box;}
+
+.pe{
+	position:absolute ;
+	background-color:;
+	border:solid 2px red;
+	width:20%;
+	height:40%;
+	top:60%;
+	left:20%;
+	text-align:center;
+}
+
+*.pe{box-sizing:border-box;}
+
+.rava{
+	position:absolute ;
+	background-color:;
+	border:solid 2px red;
+	width:20%;
+	height:40%;
+	top:60%;
+	left:40%;
+	text-align:center;
+}
+
+*.rava{box-sizing:border-box;}
+
+.tds{
+    position:absolute ;
+	background-color:;
+	border:solid 2px red;
+	width:20%;
+	height:40%;
+	top:60%;
+	right:20%;
+	text-align:center;
+}
+
+*.tds{box-sizing:border-box;}
+
+.dm{
+	position:absolute ;
+	background-color:;
+	border:solid 2px red;
+	width:20%;
+	height:40%;
+	top:60%;
+	right:0%;
+	text-align:center;
+}
+
+*.dm{box-sizing:border-box;}
+
+/*fin du cadre des raid*/
+
+/*petit cadre des avancer de la guilde qui informe le % de reusite sur le raid*/
+
+.titre{
+	position:absolute ;
+	background-color:;
+	/*border:solid 2px red;*/
+	width:100%;
+	height:20%;
+	top:0%;
+	left:0%;
+	text-align:center;
+}
+
+*.titre{
+	box-sizing:border-box;
+}
+
+.nm{
+	position:absolute ;
+	background-color:;
+	/*border:solid 2px red;*/
+	width:33.33%;
+	height:80%;
+	top:20%;
+	left:0%;
+	text-align:center;
+}
+
+*.nm{
+	box-sizing:border-box;
+}
+
+.hm{
+	position:absolute ;
+	background-color:;
+	/*border:solid 2px red;*/
+	width:33.33%;
+	height:80%;
+	top:20%;
+	left:33.33%;
+	text-align:center;
+}
+
+*.hm{
+	box-sizing:border-box;
+}
+
+.nim{
+	position:absolute ;
+	background-color:;
+	/*border:solid 2px red;*/
+	width:33.33%;
+	height:80%;
+	top:20%;
+	right:0%;
+	text-align:center;
+}
+
+*.nim{
+	box-sizing:border-box;
+}
+/*fin des petits cadre des avancer de la guilde qui informe le % de reusite sur le raid*/
+
+/*les event organiser*/
+.evenment{
+	position:absolute;
+	background-color:blue;
+	width:100%;
+	height:45%;
+	top:75%;
+	left:0%;
+	text-align:center;
+}
+/*fin cadre event*/
+
+/*nous jouons aussi*/
+.autrejeux{
+	position:absolute;
+	background-color:red;
+	width:100%;
+	height:10%;
+	top:120%;
+	left:0%;
+	text-align:center;
+	
+}
+
+/*fin cadre autre jeux*/
+
+
+
+
+
+/*pierd de page */
+#pieds{
+	position:absolute;
+	background-color:green;
+    width:100%;
+    height:3%;
+	top:117%;
+	left:0%;
+	text-align:center;
+}
+/*fin du pierd de page*/
