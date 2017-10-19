@@ -1,12 +1,58 @@
+/*code pour changer le style d'ecriture*/
+@font-face{
+	font-family:"police";
+	src:url("fonts/DK Moonlight Shadow.otf");
+	src:local("DK Moonlight Shadow"),
+	url('fonts/DK Moonlight Shadow.ttf'),
+	url:('fonts/DK Moonlight Shadow.svg#DK Moonlight Shadow'),
+	format:("svg");
+}
+
+/*fin code style d'ecriture*/
+
+/*code couleur du bouton de lien de page*/
+.btn {
+  background: #000005;
+  background-image: -webkit-linear-gradient(top, #000005, #a4aeb0);
+  background-image: -moz-linear-gradient(top, #000005, #a4aeb0);
+  background-image: -ms-linear-gradient(top, #000005, #a4aeb0);
+  background-image: -o-linear-gradient(top, #000005, #a4aeb0);
+  background-image: linear-gradient(to bottom, #000005, #a4aeb0);
+  font-family: Arial;
+  color: gold;
+  text-decoration: none;
+  
+  position:absolute;
+	background-color:black;
+	border:solid 2px gold;
+	border-radius: 20%;
+	width:100%;
+	height:100%;
+	top:%;
+	left:0px;
+	text-align:center;
+	color:gold;
+}
+
+.btn:hover {
+	  background: #8e9c99;
+  background-image: -webkit-linear-gradient(top, #8e9c99, #3f735a);
+  background-image: -moz-linear-gradient(top, #8e9c99, #3f735a);
+  background-image: -ms-linear-gradient(top, #8e9c99, #3f735a);
+  background-image: -o-linear-gradient(top, #8e9c99, #3f735a);
+  background-image: linear-gradient(to bottom, #8e9c99, #3f735a);
+  text-decoration: none;
+}
+/*fin de code bouton*/
 
 /*cadre comple du site ne rien mettre*/	
 #cadre {
 	
 	
     position:absolute;
-    background-color:;
+    background-color:black;
     width:100%;
-    height:120%;
+    height:117%;
 	top:0px;
 	left:0px;
 	
@@ -17,48 +63,64 @@
 #tete{
 	
     position:absolute;
-    background-color:;
+    background-color:black;
+	/*border:solid 2px gold;*/
+	/*border-radius: 20%;*/
     width:100%;
-    height:10%;
+    height:15%;
 	top:0px;
 	left:0px;
 	text-align:center;
-	text-bottom:center;
+	font-size:650%;
+	color:yellow;
+	font-family:police;
 }
+
+*.tete{box-sizing:border-box;}
+
 /*fin de tete*/
 
 /*contenue du site complé*/
 #corps{
 	
 	position:absolute;
-    background-color:;
+    background-color:black;
+	/*border:solid 2px gold;*/
     width:100%;
     height:80%;
     top:15%;
     left:0px;
 	
 }
+
+*.corps{box-sizing:border-box;}
+
 /*fin du corp*/
 
 /*dans le nav il y a un bouton pour aller sur la galerie photo video charte et tuto*/
 .nav{
 	position:absolute;
-	background-color:red;
+	background-color:black;
+	/*border:solid 2px gold;*/
 	width:100%;
 	height:5%;
 	top:%;
 	left:0px;
+	
 }
 
 .photo{ 
     position:absolute;
-	background-color:silver;
-	border:solid 2px red;
+	background-color:black;
+	border:solid 2px gold;
+	border-radius: 20%;
 	width:25%;
 	height:100%;
 	top:%;
 	left:0px;
 	text-align:center;
+	color:white;
+	
 }
 
 *.photo{box-sizing:border-box;}
@@ -66,39 +128,45 @@
 
 .vidéo{
 	position:absolute;
-	background-color:silver;
-	border:solid 2px red;
+	background-color:black;
+	border:solid 2px gold;
+	border-radius: 20%;
 	width:25%;
 	height:100%;
 	top:%;
 	left:25%;
 	text-align:center;
+	color:white;
 }
 
 *.vidéo{box-sizing:border-box;}
 
 .charte{
 	position:absolute;
-	background-color:silver;
-	border:solid 2px red;
+	background-color:black;
+	border:solid 2px gold;
+	border-radius: 20%;
 	width:25%;
 	height:100%;
 	top:0%;
 	right:25%;
 	text-align:center;
+	color:white;
 }
 
 *.charte{box-sizing:border-box;}
 
 .tuto{
 	position:absolute;
-	background-color:silver;
-	border:solid 2px red;
+	background-color:black;
+	border:solid 2px gold;
+	border-radius: 20%;
 	width:25%;
 	height:100%;
 	top:0%;
 	right:0%;
 	text-align:center;
+	color:white;
 } 
 *.tuto{box-sizing:border-box;}
 
@@ -108,34 +176,47 @@
 /*explicatif de guilde */
 .laguilde{
 	position:absolute;
-	background-color:green;
+	background-color:black;
+	/*border:solid 2px gold;*/
+	/*border-radius: 20%;*/
 	width:100%;
 	height:40%;
 	top:5%;
 	left:0px;
 	text-align:center;
+	color:white;
 }
+
+*.laguilde{box-sizing:border-box;}
+
 /*fin du cadre la guilde*/
 /*l'avancer de la guilde cadre general*/
 .cadreda{
 	position:absolute ;
-	background-color:orange;
+	background-color:black;
+	border:solid 2px gold;
+	/*border-radius: 20%;*/
 	width:100%;
 	height:30%;
 	top:45%;
 	left:0%;
 	
 }
+
+*.cadreda{box-sizing:border-box;}
+
 /*cadre du titre*/
 .avancer{
 	position:absolute ;
-	background-color:;
-	border:solid 2px red;
+	background-color:black;
+	border:solid 2px gold;
+	/*border-radius: 20%;*/
 	width:100%;
 	height:20%;
 	top:0%;
 	left:0%;
 	text-align:center;
+	color:white;
 }
 *.avancer{box-sizing:border-box;}
 
@@ -143,130 +224,151 @@
 
 .cde{
 	position:absolute ;
-	background-color:;
-	border:solid 2px red;
+	background-color:black;
+	border:solid 2px gold;
+	border-radius: 20%;
 	width:20%;
 	height:40%;
 	top:20%;
 	left:0%;
 	text-align:center;
+	color:white;
+	
 }
 
 *.cde{box-sizing:border-box;}
 
 .karaga{
 	position:absolute ;
-	background-color:;
-	border:solid 2px red;
+	background-color:black;
+	border:solid 2px gold;
+	border-radius: 20%;
 	width:20%;
 	height:40%;
 	top:20%;
 	left:20%;
 	text-align:center;
+	color:white;
 }
 
 *.karaga{box-sizing:border-box;}
 
 .conflit{
 	position:absolute ;
-	background-color:;
-	border:solid 2px red;
+	background-color:black;
+	border:solid 2px gold;
+	border-radius: 20%;
 	width:20%;
 	height:40%;
 	top:20%;
 	left:40%;
 	text-align:center;
+	color:white;
 }
 
 *.conflit{box-sizing:border-box;}
 
 .assation{
 	position:absolute ;
-	background-color:;
-	border:solid 2px red;
+	background-color:black;
+	border:solid 2px gold;
+	border-radius: 20%;
 	width:20%;
 	height:40%;
 	top:20%;
 	right:20%;
 	text-align:center;
+	color:white;
 }
 
 *.assation{box-sizing:border-box;}
 
 .darva{
 	position:absolute ;
-	background-color:;
-	border:solid 2px red;
+	background-color:black;
+	border:solid 2px gold;
+	border-radius: 20%;
 	width:20%;
 	height:40%;
 	top:20%;
 	right:0%;
 	text-align:center;
+	color:white;
 }
 
 *.darva{box-sizing:border-box;}
 
 .fe{
 	position:absolute ;
-	background-color:;
-	border:solid 2px red;
+	background-color:black;
+	border:solid 2px gold;
+	border-radius: 20%;
 	width:20%;
 	height:40%;
 	top:60%;
 	left:0%;
 	text-align:center;
+	color:white;
 }
 
 *.fe{box-sizing:border-box;}
 
 .pe{
 	position:absolute ;
-	background-color:;
-	border:solid 2px red;
+	background-color:black;
+	border:solid 2px gold;
+	border-radius: 20%;
 	width:20%;
 	height:40%;
 	top:60%;
 	left:20%;
 	text-align:center;
+	color:white;
 }
 
 *.pe{box-sizing:border-box;}
 
 .rava{
 	position:absolute ;
-	background-color:;
-	border:solid 2px red;
+	background-color:black;
+	border:solid 2px gold;
+	border-radius: 20%;
 	width:20%;
 	height:40%;
 	top:60%;
 	left:40%;
 	text-align:center;
+	color:white;
 }
 
 *.rava{box-sizing:border-box;}
 
 .tds{
     position:absolute ;
-	background-color:;
-	border:solid 2px red;
+	background-color:black;
+	border:solid 2px gold;
+	border-radius: 20%;
 	width:20%;
 	height:40%;
 	top:60%;
 	right:20%;
 	text-align:center;
+	color:white;
 }
 
 *.tds{box-sizing:border-box;}
 
 .dm{
 	position:absolute ;
-	background-color:;
-	border:solid 2px red;
+	background-color:black;
+	border:solid 2px gold;
+	border-radius: 20%;
 	width:20%;
 	height:40%;
 	top:60%;
 	right:0%;
 	text-align:center;
+	color:white;
 }
 
 *.dm{box-sizing:border-box;}
@@ -277,13 +379,15 @@
 
 .titre{
 	position:absolute ;
-	background-color:;
-	/*border:solid 2px red;*/
+	background-color:black;
+	border:solid 2px gold;
 	width:100%;
 	height:20%;
 	top:0%;
 	left:0%;
 	text-align:center;
+	color:white;
+	
 }
 
 *.titre{
@@ -292,13 +396,15 @@
 
 .nm{
 	position:absolute ;
-	background-color:;
-	/*border:solid 2px red;*/
+	background-color:black;
+	border:solid 2px gold;
 	width:33.33%;
 	height:80%;
 	top:20%;
 	left:0%;
 	text-align:center;
+	color:white;
+	
 }
 
 *.nm{
@@ -307,13 +413,15 @@
 
 .hm{
 	position:absolute ;
-	background-color:;
-	/*border:solid 2px red;*/
+	background-color:black;
+	border:solid 2px gold;
 	width:33.33%;
 	height:80%;
 	top:20%;
 	left:33.33%;
 	text-align:center;
+	color:white;
+	
 }
 
 *.hm{
@@ -322,13 +430,15 @@
 
 .nim{
 	position:absolute ;
-	background-color:;
-	/*border:solid 2px red;*/
+	background-color:black;
+	border:solid 2px gold;
 	width:33.33%;
 	height:80%;
 	top:20%;
 	right:0%;
 	text-align:center;
+	color:white;
+	
 }
 
 *.nim{
@@ -339,25 +449,40 @@
 /*les event organiser*/
 .evenment{
 	position:absolute;
-	background-color:blue;
+	background-color:black;
+	/*border:solid 2px gold;*/
+	/*border-radius: 20%;*/
 	width:100%;
 	height:45%;
 	top:75%;
 	left:0%;
 	text-align:center;
+	color:white;
 }
+
+*.evenment{
+	box-sizing:border-box;
+}
+
 /*fin cadre event*/
 
 /*nous jouons aussi*/
 .autrejeux{
 	position:absolute;
-	background-color:red;
+	background-color:black;
+	border:solid 2px gold;
+	/*border-radius: 20%;*/
 	width:100%;
 	height:10%;
 	top:120%;
 	left:0%;
 	text-align:center;
+	color:white;
 	
+}
+
+*.autrejeux{
+	box-sizing:border-box;
 }
 
 /*fin cadre autre jeux*/
@@ -369,11 +494,19 @@
 /*pierd de page */
 #pieds{
 	position:absolute;
-	background-color:green;
+	background-color:black;
+	border:solid 2px gold;
+	/*border-radius: 20%;*/
     width:100%;
     height:3%;
 	top:117%;
 	left:0%;
 	text-align:center;
+	color:white;
 }
+
+*.pieds{
+	box-sizing:border-box;
+}
+
 /*fin du pierd de page*/

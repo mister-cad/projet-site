@@ -1,0 +1,91 @@
+/*code pour changer le style d'ecriture*/
+@font-face{
+	font-family:"police";
+	src:url("fonts/DK Moonlight Shadow.otf");
+	src:local("DK Moonlight Shadow"),
+	    url('fonts/DK Moonlight Shadow.ttf'),
+	    url:('fonts/DK Moonlight Shadow.svg#DK Moonlight Shadow'),
+	    format:("svg");
+}
+
+/*fin code style d'ecriture*/
+
+/*cadre general de la galerie photo contien aussi le titre*/
+#cadre{
+	position:absolute;
+	height:100%;
+	width:110%;
+	background-color:black;
+	border:solid 2px gold;
+	top:0%;
+	left:0%;
+	text-align:center;
+	font-size:650%;
+	color:yellow;
+	font-family:police;
+}
+
+*.cadre{box-sizing:border-box;}
+/*fin du cadre general*/
+
+/*cadre photo contien toute les vidéos.*/
+.vidéo{
+	position:absolute;
+	height:100%;
+	width:100%;
+	background-color:black;
+	border-top:solid 2px gold;
+	top:20%;
+	left:0%;
+	text-align:;
+	font-size:20%;
+	color:yellow;
+	font-family:;
+}
+
+*.vidéo{box-sizing:border-box;}
+/*fin du cadre vidéo*/
+
+/*début des cadre NM HM NIM qui vons contenir les vidéo*/
+
+.nm{
+	position:absolute;
+	width:100%;
+	height:36%;
+	background-color:black;
+	border-top:solid 2px gold;
+	top:0%;
+	left:0%;
+	color:yellow;
+	
+}
+
+*.nm{box-sizing:border-box;}
+
+.hm{
+	position:absolute;
+	width:100%;
+	height:36%;
+	background-color:black;
+	border-top:solid 2px gold;
+	top:36%;
+	left:0%;
+	color:yellow;
+}
+
+*.hm{box-sizing:border-box;}
+
+.nim{
+	position:absolute;
+	width:100%;
+	height:36%;
+	background-color:black;
+	border-top:solid 2px gold;
+	top:72%;
+	left:0%;
+	color:yellow;
+}
+
+*.nim{box-sizing:border-box;}
+
+/*fin des cadres NM HM NIM */

@@ -1,0 +1,47 @@
+/*code pour changer le style d'ecriture*/
+@font-face{
+	font-family:"police";
+	src:url("fonts/DK Moonlight Shadow.otf");
+	src:local("DK Moonlight Shadow"),
+	    url('fonts/DK Moonlight Shadow.ttf'),
+	    url:('fonts/DK Moonlight Shadow.svg#DK Moonlight Shadow'),
+	    format:("svg");
+}
+
+/*fin code style d'ecriture*/
+
+/*cadre general de la galerie photocontien aussi le titre*/
+#cadre{
+	position:absolute;
+	height:100%;
+	width:110%;
+	background-color:black;
+	border:solid 2px gold;
+	top:0%;
+	left:0%;
+	text-align:center;
+	font-size:650%;
+	color:yellow;
+	font-family:police;
+}
+
+*.cadre{box-sizing:border-box;}
+/*fin du cadre general*/
+
+/*cadre photo contien toute les photos.*/
+.photo{
+	position:absolute;
+	height:100%;
+	width:100%;
+	background-color:black;
+	border-top:solid 2px gold;
+	top:20%;
+	left:0%;
+	text-align:center;
+	font-size:650%;
+	color:yellow;
+	font-family:;
+}
+
+*.photo{box-sizing:border-box;}
+/*fin du cadre photo*/
