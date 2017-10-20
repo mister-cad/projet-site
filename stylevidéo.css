@@ -13,8 +13,8 @@
 /*cadre general de la galerie photo contien aussi le titre*/
 #cadre{
 	position:absolute;
-	height:100%;
-	width:110%;
+	height:110%;
+	width:100%;
 	background-color:black;
 	border:solid 2px gold;
 	top:0%;
@@ -46,6 +46,41 @@
 *.vidéo{box-sizing:border-box;}
 /*fin du cadre vidéo*/
 
+/*cadre twitch*/
+
+.twitch{
+	position:absolute;
+	height:20%;
+	width:100%;
+	background-color:black;
+	border-top:solid 2px gold;
+	top:0%;
+	left:0%;
+	text-align:center;
+	font-size:120%;
+	color:yellow;
+	font-family:;
+}
+
+*.twitch{box-sizing:border-box;}
+
+/*fin cadre twitch*/
+
+/*cadre qui contien les vidéo*/
+
+.ctnvidéo{
+	position:absolute;
+	width:100%;
+	height:90%;
+	background-color:black;
+	top:10%;
+	left:0%;
+	color:yellow;
+	
+}
+
+/*fin de cadre contenue vidéo*/
+
 /*début des cadre NM HM NIM qui vons contenir les vidéo*/
 
 .nm{
@@ -54,7 +89,7 @@
 	height:36%;
 	background-color:black;
 	border-top:solid 2px gold;
-	top:0%;
+	top:20%;
 	left:0%;
 	color:yellow;
 	
@@ -68,7 +103,7 @@
 	height:36%;
 	background-color:black;
 	border-top:solid 2px gold;
-	top:36%;
+	top:56%;
 	left:0%;
 	color:yellow;
 }
@@ -81,7 +116,7 @@
 	height:36%;
 	background-color:black;
 	border-top:solid 2px gold;
-	top:72%;
+	top:92%;
 	left:0%;
 	color:yellow;
 }

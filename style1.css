@@ -119,7 +119,7 @@
 	top:%;
 	left:0px;
 	text-align:center;
-	color:white;
+	color:;
 	
 }
 
@@ -136,7 +136,7 @@
 	top:%;
 	left:25%;
 	text-align:center;
-	color:white;
+	color:;
 }
 
 *.vidéo{box-sizing:border-box;}
@@ -151,7 +151,7 @@
 	top:0%;
 	right:25%;
 	text-align:center;
-	color:white;
+	color:;
 }
 
 *.charte{box-sizing:border-box;}
@@ -166,7 +166,7 @@
 	top:0%;
 	right:0%;
 	text-align:center;
-	color:white;
+	color:;
 } 
 *.tuto{box-sizing:border-box;}
 
@@ -184,7 +184,8 @@
 	top:5%;
 	left:0px;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 }
 
 *.laguilde{box-sizing:border-box;}
@@ -216,7 +217,8 @@
 	top:0%;
 	left:0%;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 }
 *.avancer{box-sizing:border-box;}
 
@@ -232,7 +234,8 @@
 	top:20%;
 	left:0%;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 	
 }
 
@@ -248,7 +251,8 @@
 	top:20%;
 	left:20%;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 }
 
 *.karaga{box-sizing:border-box;}
@@ -263,7 +267,8 @@
 	top:20%;
 	left:40%;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 }
 
 *.conflit{box-sizing:border-box;}
@@ -278,7 +283,8 @@
 	top:20%;
 	right:20%;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 }
 
 *.assation{box-sizing:border-box;}
@@ -293,7 +299,8 @@
 	top:20%;
 	right:0%;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 }
 
 *.darva{box-sizing:border-box;}
@@ -308,7 +315,8 @@
 	top:60%;
 	left:0%;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 }
 
 *.fe{box-sizing:border-box;}
@@ -323,7 +331,8 @@
 	top:60%;
 	left:20%;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 }
 
 *.pe{box-sizing:border-box;}
@@ -338,7 +347,8 @@
 	top:60%;
 	left:40%;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 }
 
 *.rava{box-sizing:border-box;}
@@ -353,7 +363,8 @@
 	top:60%;
 	right:20%;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 }
 
 *.tds{box-sizing:border-box;}
@@ -368,7 +379,8 @@
 	top:60%;
 	right:0%;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 }
 
 *.dm{box-sizing:border-box;}
@@ -386,7 +398,8 @@
 	top:0%;
 	left:0%;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 	
 }
 
@@ -403,7 +416,8 @@
 	top:20%;
 	left:0%;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 	
 }
 
@@ -420,7 +434,8 @@
 	top:20%;
 	left:33.33%;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 	
 }
 
@@ -437,7 +452,8 @@
 	top:20%;
 	right:0%;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 	
 }
 
@@ -457,7 +473,8 @@
 	top:75%;
 	left:0%;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 }
 
 *.evenment{
@@ -465,31 +482,6 @@
 }
 
 /*fin cadre event*/
-
-/*nous jouons aussi*/
-.autrejeux{
-	position:absolute;
-	background-color:black;
-	border:solid 2px gold;
-	/*border-radius: 20%;*/
-	width:100%;
-	height:10%;
-	top:120%;
-	left:0%;
-	text-align:center;
-	color:white;
-	
-}
-
-*.autrejeux{
-	box-sizing:border-box;
-}
-
-/*fin cadre autre jeux*/
-
-
-
-
 
 /*pierd de page */
 #pieds{
@@ -499,10 +491,11 @@
 	/*border-radius: 20%;*/
     width:100%;
     height:3%;
-	top:117%;
+	top:110%;
 	left:0%;
 	text-align:center;
-	color:white;
+	color:gold;
+	font-family:;
 }
 
 *.pieds{
