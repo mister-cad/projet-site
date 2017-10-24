@@ -13,7 +13,7 @@
 /*cadre general de la galerie photo contien aussi le titre*/
 #cadre{
 	position:absolute;
-	height:110%;
+	height:150%;
 	width:100%;
 	background-color:black;
 	border:solid 2px gold;
@@ -48,7 +48,7 @@
 
 /*cadre twitch*/
 
-.twitch{
+.presentation{
 	position:absolute;
 	height:20%;
 	width:100%;
@@ -62,7 +62,7 @@
 	font-family:;
 }
 
-*.twitch{box-sizing:border-box;}
+*.presentation{box-sizing:border-box;}
 
 /*fin cadre twitch*/
 

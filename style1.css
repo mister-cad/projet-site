@@ -1,4 +1,6 @@
-/*code pour changer le style d'ecriture*/
+* {
+	box-sizing:border-box;
+}/*code pour changer le style d'ecriture*/
 @font-face{
 	font-family:"police";
 	src:url("fonts/DK Moonlight Shadow.otf");
@@ -24,7 +26,7 @@
   
   position:absolute;
 	background-color:black;
-	border:solid 2px gold;
+	border:solid 2px gold; 
 	border-radius: 20%;
 	width:100%;
 	height:100%;
@@ -50,7 +52,7 @@
 	
 	
     position:absolute;
-    background-color:black;
+    background-color:black; 
     width:100%;
     height:117%;
 	top:0px;
@@ -84,7 +86,7 @@
 #corps{
 	
 	position:absolute;
-    background-color:black;
+    background-color:black; 
 	/*border:solid 2px gold;*/
     width:100%;
     height:80%;
@@ -99,17 +101,17 @@
 
 /*dans le nav il y a un bouton pour aller sur la galerie photo video charte et tuto*/
 .nav{
-	position:absolute;
-	background-color:black;
+	position:absolute; 
+	background-color:black; 
 	/*border:solid 2px gold;*/
-	width:100%;
-	height:5%;
+	width:10%;
+	height:40%;
 	top:%;
 	left:0px;
 	
 }
 
-.photo{ 
+/*.photo{ 
     position:absolute;
 	background-color:black;
 	border:solid 2px gold;
@@ -123,48 +125,90 @@
 	
 }
 
-*.photo{box-sizing:border-box;}
+*.photo{box-sizing:border-box;}*/
+
+.discord{
+	position:absolute;
+	background: #000005;
+  background-image: -webkit-linear-gradient(top, #000005, #a4aeb0);
+  background-image: -moz-linear-gradient(top, #000005, #a4aeb0);
+  background-image: -ms-linear-gradient(top, #000005, #a4aeb0);
+  background-image: -o-linear-gradient(top, #000005, #a4aeb0);
+  background-image: linear-gradient(to bottom, #000005, #a4aeb0);
+	border:solid 2px gold;
+	border-radius:33.33%;
+	width:100%;
+	height:10%;
+	top:0%;
+	left:0%;
+	text-align:center;
+	color:gold;
+	font-size:150%;
+}
+
+*.discord{box-sizing:border-box;}
+
+.twitch{
+	position:absolute;
+	background: #000005;
+  background-image: -webkit-linear-gradient(top, #000005, #a4aeb0);
+  background-image: -moz-linear-gradient(top, #000005, #a4aeb0);
+  background-image: -ms-linear-gradient(top, #000005, #a4aeb0);
+  background-image: -o-linear-gradient(top, #000005, #a4aeb0);
+  background-image: linear-gradient(to bottom, #000005, #a4aeb0);
+	border:solid 2px gold;
+	border-radius:33.33%;
+	width:100%;
+	height:10%;
+	top:10%;
+	left:0%;
+	text-align:center;
+	color:gold;
+	font-size:130%;
+}
+
+*.twitch{box-sizing:border-box;}
 
 
 .vidéo{
 	position:absolute;
 	background-color:black;
-	border:solid 2px gold;
-	border-radius: 20%;
-	width:25%;
-	height:100%;
-	top:%;
-	left:25%;
+	/* border:solid 2px gold; */
+	border-radius:33.33%;
+	width:100%;
+	height:10%;
+	top:20%;
+	left:0%;
 	text-align:center;
 	color:;
 }
 
 *.vidéo{box-sizing:border-box;}
 
-.charte{
+.event{
 	position:absolute;
 	background-color:black;
-	border:solid 2px gold;
+	/* border:solid 2px gold; */
 	border-radius: 20%;
-	width:25%;
-	height:100%;
-	top:0%;
-	right:25%;
+	width:100%;
+	height:10%;
+	top:30%;
+	left:00%;
 	text-align:center;
 	color:;
 }
 
-*.charte{box-sizing:border-box;}
+*.event{box-sizing:border-box;}
 
 .tuto{
 	position:absolute;
 	background-color:black;
-	border:solid 2px gold;
-	border-radius: 20%;
-	width:25%;
-	height:100%;
-	top:0%;
-	right:0%;
+	/* border:solid 2px gold; */
+	border-radius:20%;
+	width:100%;
+	height:10%;
+	top:40%;
+	left:0%;
 	text-align:center;
 	color:;
 } 
@@ -176,13 +220,13 @@
 /*explicatif de guilde */
 .laguilde{
 	position:absolute;
-	background-color:black;
+    background-color:black; 
 	/*border:solid 2px gold;*/
 	/*border-radius: 20%;*/
-	width:100%;
+	width:90%;
 	height:40%;
-	top:5%;
-	left:0px;
+	top:%;
+	left:10%;
 	text-align:center;
 	color:gold;
 	font-family:;
@@ -191,15 +235,37 @@
 *.laguilde{box-sizing:border-box;}
 
 /*fin du cadre la guilde*/
+
+/*les event organiser*/
+.evenment{
+	position:absolute;
+	background-color:black; 
+	border-top:solid 2px gold;
+	/*border-radius: 20%;*/
+	width:100%;
+	height:45%;
+	top:45%;
+	left:0%;
+	text-align:center;
+	color:gold;
+	font-family:;
+}
+
+*.evenment{
+	box-sizing:border-box;
+}
+
+/*fin cadre event*/
+
 /*l'avancer de la guilde cadre general*/
 .cadreda{
 	position:absolute ;
-	background-color:black;
+	background-color:black; 
 	border:solid 2px gold;
 	/*border-radius: 20%;*/
 	width:100%;
 	height:30%;
-	top:45%;
+    top:95%;
 	left:0%;
 	
 }
@@ -209,7 +275,7 @@
 /*cadre du titre*/
 .avancer{
 	position:absolute ;
-	background-color:black;
+	background-color:black; 
 	border:solid 2px gold;
 	/*border-radius: 20%;*/
 	width:100%;
@@ -226,7 +292,7 @@
 
 .cde{
 	position:absolute ;
-	background-color:black;
+	background-color:black; 
 	border:solid 2px gold;
 	border-radius: 20%;
 	width:20%;
@@ -243,7 +309,7 @@
 
 .karaga{
 	position:absolute ;
-	background-color:black;
+	background-color:black; 
 	border:solid 2px gold;
 	border-radius: 20%;
 	width:20%;
@@ -259,7 +325,7 @@
 
 .conflit{
 	position:absolute ;
-	background-color:black;
+	background-color:black; 
 	border:solid 2px gold;
 	border-radius: 20%;
 	width:20%;
@@ -275,7 +341,7 @@
 
 .assation{
 	position:absolute ;
-	background-color:black;
+	background-color:black; 
 	border:solid 2px gold;
 	border-radius: 20%;
 	width:20%;
@@ -291,7 +357,7 @@
 
 .darva{
 	position:absolute ;
-	background-color:black;
+	background-color:black; 
 	border:solid 2px gold;
 	border-radius: 20%;
 	width:20%;
@@ -307,7 +373,7 @@
 
 .fe{
 	position:absolute ;
-	background-color:black;
+	background-color:black; 
 	border:solid 2px gold;
 	border-radius: 20%;
 	width:20%;
@@ -323,7 +389,7 @@
 
 .pe{
 	position:absolute ;
-	background-color:black;
+	background-color:black; 
 	border:solid 2px gold;
 	border-radius: 20%;
 	width:20%;
@@ -462,36 +528,15 @@
 }
 /*fin des petits cadre des avancer de la guilde qui informe le % de reusite sur le raid*/
 
-/*les event organiser*/
-.evenment{
-	position:absolute;
-	background-color:black;
-	/*border:solid 2px gold;*/
-	/*border-radius: 20%;*/
-	width:100%;
-	height:45%;
-	top:75%;
-	left:0%;
-	text-align:center;
-	color:gold;
-	font-family:;
-}
-
-*.evenment{
-	box-sizing:border-box;
-}
-
-/*fin cadre event*/
-
 /*pierd de page */
 #pieds{
 	position:absolute;
-	background-color:black;
+	background-color:black; 
 	border:solid 2px gold;
 	/*border-radius: 20%;*/
     width:100%;
     height:3%;
-	top:110%;
+	top:115%;
 	left:0%;
 	text-align:center;
 	color:gold;
@@ -502,4 +547,52 @@
 	box-sizing:border-box;
 }
 
+.charte{
+	position:absolute;
+	background-color:red;
+	border:solid 2px gold;
+	/* border-radius: 20%; */
+	width:15%;
+	height:100%;
+	top:0%;
+	right:2%;
+	text-align:center;
+	color:;
+}
+
+*.charte{box-sizing:border-box;}
+/*bouton charte*/
+.btn1 {
+  background: #000005;
+  background-image: -webkit-linear-gradient(top, #000005, #a4aeb0);
+  background-image: -moz-linear-gradient(top, #000005, #a4aeb0);
+  background-image: -ms-linear-gradient(top, #000005, #a4aeb0);
+  background-image: -o-linear-gradient(top, #000005, #a4aeb0);
+  background-image: linear-gradient(to bottom, #000005, #a4aeb0);
+  font-family: Arial;
+  color: gold;
+  text-decoration: none;
+  
+  position:absolute;
+	background-color:red;
+	border:solid 2px gold;
+	/* border-radius: 20%; */
+	width:100%;
+	height:100%;
+	top:0%;
+	right:0%;
+	text-align:center;
+	color:gold;
+}
+ 
+
+.btn1:hover {
+	  background: #8e9c99;
+  background-image: -webkit-linear-gradient(top, #8e9c99, #3f735a);
+  background-image: -moz-linear-gradient(top, #8e9c99, #3f735a);
+  background-image: -ms-linear-gradient(top, #8e9c99, #3f735a);
+  background-image: -o-linear-gradient(top, #8e9c99, #3f735a);
+  background-image: linear-gradient(to bottom, #8e9c99, #3f735a);
+  text-decoration: none;
+}
 /*fin du pierd de page*/
