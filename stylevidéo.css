@@ -13,7 +13,7 @@
 /*cadre general de la galerie photo contien aussi le titre*/
 #cadre{
 	position:absolute;
-	height:150%;
+	height:110%;
 	width:100%;
 	background-color:black;
 	border:solid 2px gold;
